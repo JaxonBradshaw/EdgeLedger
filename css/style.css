@@ -48,6 +48,12 @@ img {
     position: fixed;
     top: 0px;
     padding: 0 30px;
+    /* this is for navbar pulling up */
+    transition: 0.5s ease-in;
+}
+
+.navbar.top {
+    background: transparent;
 }
 
 .navbar a {
